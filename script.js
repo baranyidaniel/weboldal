@@ -4,5 +4,5 @@ function szamol()
     let num2 = parseInt(document.getElementById('szam2').value);
 
     let eredmeny = num1 + num2;
-    document.getElementById('megoldas').innerHTML = "Eredmény" + eredmeny;
+    document.getElementById('megoldas').innerHTML = "Eredmény: " + eredmeny;
 }
